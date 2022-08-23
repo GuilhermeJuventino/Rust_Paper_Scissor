@@ -105,7 +105,7 @@ fn input(prompt: &str) -> String {
 
     // getting user input
     io::stdin().read_line(&mut string).unwrap();
-
+    
     // removing extra lines
     trim_new_line(&mut string);
 
